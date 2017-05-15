@@ -6,8 +6,7 @@
 
     <color name="colorRed">#ff471a</color>
     <color name="colorRedFade">#80ff471a</color>
-    <color name="colorPrimaryDark">#800020</color>
-    <color name="colorAccent">#FF4081</color>
+
     <color name="colorBackground">#90d35400</color>
     <color name="colorBlackText">#000000</color>
     <color name="colorButtonText">#212121</color>
