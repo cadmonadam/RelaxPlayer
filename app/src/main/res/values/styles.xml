@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -21,6 +21,16 @@
         <item name="android:layout_marginLeft">@dimen/title_layout_marginLeft</item>
         <item name="android:layout_marginRight">@dimen/title_layout_marginRight</item>
 
+    </style>
+
+    <style name="explanation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/descriptioncard</item>
+        <item name="android:padding">@dimen/innerpadding</item>
+        <item name="android:elevation">@dimen/elevation</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+        <item name="android:layout_marginTop">@dimen/defaultmargin_padding</item>
     </style>
 
 </resources>

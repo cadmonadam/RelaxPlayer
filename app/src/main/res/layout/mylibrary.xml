@@ -1,66 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorRedFade"
-    android:orientation="vertical">
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="309dp"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/bird1" />
-
+    android:background="@color/colorOrange2">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/sampleBird1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="Sample Sound 1"
-            android:textSize="22sp" />
-
-        <TextView
-            android:id="@+id/sampleBird2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="Sample Sound 2"
-            android:textSize="22sp" />
-
-        <TextView
-            android:id="@+id/sampleBird2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="Sample Sound 3"
-            android:textSize="22sp" />
-
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:adjustViewBounds="false"
-            android:src="@drawable/ic_play_circle_filled_white" />
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/librarysmall" />
 
-        <Button
-            android:id="@+id/button_download"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@color/colorRed"
-            android:text="Download More Sounds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sampleBird1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sample Sound 1"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/sampleBird2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sample Sound 2"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/sampleBird2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Sample Sound 3"
+                android:textSize="22sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:src="@drawable/ic_play_circle_filled_white" />
+
+            <Button
+                android:id="@+id/button_download"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorRed"
+                android:text="Download More Sounds" />
+
+            <TextView
+                style="@style/explanation"
+                android:text="@string/birdExplanation" />
+        </LinearLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
