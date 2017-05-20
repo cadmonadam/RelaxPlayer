@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDarkBlue">
+    android:background="@drawable/mybutton3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,10 +24,11 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:background="@drawable/mybutton3"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/sampleBird1"
+                android:id="@+id/sampleNight1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -35,7 +36,7 @@
                 android:textSize="22sp" />
 
             <TextView
-                android:id="@+id/sampleBird2"
+                android:id="@+id/sampleNight2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -43,7 +44,7 @@
                 android:textSize="22sp" />
 
             <TextView
-                android:id="@+id/sampleBird2"
+                android:id="@+id/sampleNight3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -52,6 +53,7 @@
 
 
             <ImageView
+                android:id="@+id/play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -65,12 +67,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/colorRed"
+                android:background="@drawable/mybutton3"
                 android:text="Download More Sounds" />
 
             <TextView
                 style="@style/explanation"
-                android:text="@string/birdExplanation" />
+                android:text="@string/nocturnalExplanation" />
         </LinearLayout>
 
     </LinearLayout>

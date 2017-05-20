@@ -17,4 +17,7 @@
     <color name="colorButtonText">#212121</color>
     <color name="colorButtonBackground">#ff531a</color>
 
+    <color name="colorStorm1">#344C2C</color>
+    <color name="colorStormButton">#A0B25B</color>
+
 </resources>

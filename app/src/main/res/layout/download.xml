@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@drawable/mybutton3">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/dowloadsmall" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/TitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/world"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/sampleBird1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Visit Our Website and download thousands of Nature Sounds for absolutely FREE!"
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/button_download"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoLink="all"
+                android:background="@drawable/mybutton3"
+                android:linksClickable="true"
+                android:text="www.relaxplayer.com" />
+
+            <TextView
+                style="@style/explanation"
+                android:text="@string/downloadExplanation" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

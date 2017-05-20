@@ -87,7 +87,9 @@
 
             </LinearLayout>
 
-
+            <TextView
+                style="@style/explanation"
+                android:text="@string/nowPlayingExplanation" />
         </LinearLayout>
 
     </LinearLayout>

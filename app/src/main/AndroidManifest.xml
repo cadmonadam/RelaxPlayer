@@ -16,6 +16,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Birds">
+            <intent-filter>
+                <action android:name="android.intent.action.BIRDS" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Download">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Mylibrary">
+            <intent-filter>
+                <action android:name="android.intent.action.MYLIBRARY" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Nocturnal">
+            <intent-filter>
+                <action android:name="android.intent.action.NOCTURNAL" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Nowplaying">
+            <intent-filter>
+                <action android:name="android.intent.action.NOWPLAYING" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Storm">
+            <intent-filter>
+                <action android:name="android.intent.action.STORM" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

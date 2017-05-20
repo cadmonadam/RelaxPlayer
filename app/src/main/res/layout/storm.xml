@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorOrange2">
+    android:background="@color/colorStorm1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/sampleBird1"
+                android:id="@+id/sampleStorm1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -35,7 +35,7 @@
                 android:textSize="22sp" />
 
             <TextView
-                android:id="@+id/sampleBird2"
+                android:id="@+id/sampleStorm2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -43,7 +43,7 @@
                 android:textSize="22sp" />
 
             <TextView
-                android:id="@+id/sampleBird2"
+                android:id="@+id/sampleStorm3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -52,6 +52,7 @@
 
 
             <ImageView
+                android:id="@+id/play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -65,12 +66,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/colorRed"
+                android:background="@drawable/mybutton2"
                 android:text="Download More Sounds" />
 
             <TextView
                 style="@style/explanation"
-                android:text="@string/birdExplanation" />
+                android:text="@string/stormExplanation" />
         </LinearLayout>
 
     </LinearLayout>
