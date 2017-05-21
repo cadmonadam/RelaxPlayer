@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // setup the onclick listeners to the buttons by using findViewById method.
+        // Setup the onclick listeners to the buttons by using findViewById method.
         Button birds = (Button) findViewById(R.id.buttonSunnyBirds);
         Button storm = (Button) findViewById(R.id.buttonAfterTheStorm);
         Button nocturnal = (Button) findViewById(R.id.buttonNocturnal);
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent startScreen;
-        // By clicking on a button an appropriate intent will start.
+        // By clicking on a certain button an appropriate intent will start. Previously all of the activities had been created in AndroidManifest.xml
         switch (v.getId()) {
             case R.id.buttonSunnyBirds:
                 startScreen = new Intent(this, Birds.class);

@@ -8,13 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LinearLayoutMainActivity">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
     <style name="TitleTextView">
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textAlignment">center</item>
         <item name="android:textSize">@dimen/title_textSize</item>
         <item name="android:layout_marginBottom">@dimen/title_layout_marginBottom</item>
         <item name="android:layout_marginTop">@dimen/title_layout_marginTop</item>
@@ -32,5 +40,22 @@
         <item name="android:textColor">@color/colorBlackText</item>
         <item name="android:layout_marginTop">@dimen/defaultmargin_padding</item>
     </style>
+
+
+    <style name="buttonMain">
+        <item name="android:layout_width">@dimen/mainButton_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/mainButton_layout_marginTop</item>
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:textColor">@color/colorBlackText</item>
+    </style>
+
+    <style name="screensMainLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
 
 </resources>

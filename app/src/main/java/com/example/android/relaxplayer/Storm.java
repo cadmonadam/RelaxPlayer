@@ -16,7 +16,7 @@ public class Storm extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.storm);
-        // setup the onclick listeners to the buttons by using findViewById method.
+        // Setup the onclick listeners to the buttons by using findViewById method.
         Button download = (Button) findViewById(R.id.button_download);
         ImageView play = (ImageView) findViewById(R.id.play);
 

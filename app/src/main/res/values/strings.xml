@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">RelaxPlayer</string>
+    <string name="openingTextView">"Immerse Into Your Universe!"</string>
+    <string name="birds">"Sunny Birds"</string>
+    <string name="storm">"After The Storm"</string>
+    <string name="nocturnal">"Nocturnal"</string>
+    <string name="myLibrary">"My Library"</string>
+
+
     <string name="mainExplanation">This is the opening screen. The main aim of Relax Player is to provide a large variety of real nature sounds captured at different parts of the World.\n Beside this unique feature it is also able to play the user\' s media files, so this way working as a classic media player.\n In this screen the user can choose from different types of predefined nature sounds or can open his own music library. \n New activities begin with the help of onClickListener by pressing the appropriate button.</string>
     <string name="birdExplanation">In this section the user can choose the built in Bird Songs found in raw lib within res.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen. </string>
     <string name="stormExplanation">In this section the user can choose the built in Storm Songs found in raw lib within res.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen.</string>

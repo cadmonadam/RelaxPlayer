@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by Adam Cadmon on 2017. 05. 15..
  */
-
+// Because this screen is just a demonstration no additional changes was necessary.
 public class Nowplaying extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

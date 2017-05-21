@@ -21,7 +21,7 @@ public class Birds extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(birds);
 
-        // setup the onclick listeners to the buttons by using findViewById method.
+        // Setup the onclick listeners to the buttons by using findViewById method.
         Button download = (Button) findViewById(R.id.button_download);
         ImageView play = (ImageView) findViewById(R.id.play);
 

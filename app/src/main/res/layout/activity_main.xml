@@ -8,60 +8,33 @@
 
     <LinearLayout
         android:id="@+id/root"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        style="@style/LinearLayoutMainActivity">
 
 
         <TextView
             android:id="@+id/textView"
             style="@style/TitleTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="80dp"
-            android:text="Immerse Into Your Universe!"
-            android:textAlignment="center" />
+            android:text="@string/openingTextView" />
 
         <Button
             android:id="@+id/buttonSunnyBirds"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
-            android:text="Sunny Birds"
-            android:textColor="@color/colorBlackText" />
+            style="@style/buttonMain"
+            android:text="@string/birds" />
 
         <Button
             android:id="@+id/buttonAfterTheStorm"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
-            android:text="After The Storm"
-            android:textColor="@color/colorBlackText" />
+            style="@style/buttonMain"
+            android:text="@string/storm" />
 
         <Button
             android:id="@+id/buttonNocturnal"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
-            android:text="Nocturnal"
-            android:textColor="@color/colorBlackText" />
+            style="@style/buttonMain"
+            android:text="@string/nocturnal" />
 
         <Button
             android:id="@+id/buttonMyLibrary"
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/mybutton"
-            android:text="My Library"
-            android:textColor="@color/colorBlackText" />
+            style="@style/buttonMain"
+            android:text="@string/myLibrary" />
 
         <TextView
             style="@style/explanation"

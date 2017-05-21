@@ -9,49 +9,11 @@
 
     <dimen name="title_textSize">30sp</dimen>
     <dimen name="title_layout_marginTop">40dp</dimen>
-    <dimen name="title_layout_marginBottom">40dp</dimen>
+    <dimen name="title_layout_marginBottom">80dp</dimen>
     <dimen name="title_layout_marginLeft">20dp</dimen>
     <dimen name="title_layout_marginRight">20dp</dimen>
 
-    <dimen name="subtitle_textSize">24sp</dimen>
-    <dimen name="subtitle_layout_marginBottom">80dp</dimen>
-    <dimen name="subtitle_layout_marginLeft">20dp</dimen>
-    <dimen name="subtitle_layout_marginRight">20dp</dimen>
-
-    <dimen name="imageview_main_layout_marginBottom">45dp</dimen>
-
-    <dimen name="button_textSize">18sp</dimen>
-    <dimen name="button_layout_marginTop">60dp</dimen>
-    <dimen name="button_layout_marginBottom">50dp</dimen>
-
-    <dimen name="buttonquiz_layout_width">250dp</dimen>
-    <dimen name="buttonquiz_textSize">14sp</dimen>
-    <dimen name="buttonquiz_layout_marginTop">10dp</dimen>
-    <dimen name="buttonquiz_layout_marginBottom">10dp</dimen>
-
-    <dimen name="textviewresult_layout_marginLeft">10dp</dimen>
-    <dimen name="textvieresult_layout_marginTop">10dp</dimen>
-    <dimen name="textviewresult_textSize">22sp</dimen>
-
-    <dimen name="textviewresultend_marginTop">20dp</dimen>
-    <dimen name="textviewresultend_marginBottom">80dp</dimen>
-    <dimen name="textviewresultend_marginLeft">20dp</dimen>
-    <dimen name="textviewresultend_marginRight">20dp</dimen>
-
-    <dimen name="linearlayoutquizmain_marginLeft">20dp</dimen>
-    <dimen name="linearlayoutquizmain_marginRight">20dp</dimen>
-
-    <dimen name="textviewquiz_textSize">20sp</dimen>
-    <dimen name="textviewquiz_layout_marginTop">20dp</dimen>
-    <dimen name="textviewquiz_layout_marginLeft">20dp</dimen>
-    <dimen name="textviewquiz_layout_marginRight">20dp</dimen>
-
-    <dimen name="edittext_layout_marginLeft">20dp</dimen>
-    <dimen name="edittext_layout_marginRight">20dp</dimen>
-
-    <dimen name="view_layout_height">20dp</dimen>
-    <dimen name="view_layout_marginTop">10dp</dimen>
-
-    <dimen name="checkbox_textSize">18sp</dimen>
+    <dimen name="mainButton_layout_width">180dp</dimen>
+    <dimen name="mainButton_layout_marginTop">10dp</dimen>
 
 </resources>

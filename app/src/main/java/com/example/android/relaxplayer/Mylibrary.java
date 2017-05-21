@@ -19,7 +19,7 @@ public class Mylibrary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mylibrary);
 
-        // Find the play button that will start the selected song on Nowplayin screen.
+        // Find the play button that will start the selected song on Nowplaying screen.
         ImageView play = (ImageView) findViewById(R.id.play);
 
         //Set a click listener on the play button.
@@ -28,7 +28,7 @@ public class Mylibrary extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent startScreen = new Intent(Mylibrary.this, Nowplaying.class);
-                //Start the new activity- Librar.
+                //Start the new activity - Nowplaying.
                 startActivity(startScreen);
             }
 
