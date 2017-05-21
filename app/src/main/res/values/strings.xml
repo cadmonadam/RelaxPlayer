@@ -5,6 +5,16 @@
     <string name="storm">"After The Storm"</string>
     <string name="nocturnal">"Nocturnal"</string>
     <string name="myLibrary">"My Library"</string>
+    <string name="sampleSound1">"Sample Sound 1"</string>
+    <string name="sampleSound2">"Sample Sound 2"</string>
+    <string name="sampleSound3">"Sample Sound 3"</string>
+    <string name="album1">"Album 1"</string>
+    <string name="album2">"Album 2"</string>
+    <string name="album3">"Album 3"</string>
+    <string name="downloadMore">"Download More Sounds"</string>
+    <string name="visit">"Visit Our Website and download thousands of Nature Sounds for absolutely FREE!"</string>
+    <string name="relaxplayer">"www.relaxplayer.com"</string>
+    <string name="artist">"Artist Name - Album"</string>
 
 
     <string name="mainExplanation">This is the opening screen. The main aim of Relax Player is to provide a large variety of real nature sounds captured at different parts of the World.\n Beside this unique feature it is also able to play the user\' s media files, so this way working as a classic media player.\n In this screen the user can choose from different types of predefined nature sounds or can open his own music library. \n New activities begin with the help of onClickListener by pressing the appropriate button.</string>
@@ -15,4 +25,5 @@
     <string name="nowPlayingExplanation">In this screen we can find the details of the song which is actually being played and the control panel itself.\n In order to play a song the MediaPlayer and AudiomManager classes have to be initiated. With the help of setOnCompletionListener()/setNextMediaPlayer()methods we can ensure that the next track will be started when the current playback is ended. \n The next and previous buttons stop the current track playback and starts the previous/next track.\n With the fast-forward and the fast-rewind buttons the user can move forward (or backward) through a recording at a speed faster than that at which it would usually be played.</string>
     <string name="world">The whole World is waiting fou You!</string>
     <string name="downloadExplanation">In this screen by pressing the button the User can access and download a lot of Nature Sounds recorded at different parts of the World.</string>
+    <string name="title_of_the_song">Title of the Song</string>
 </resources>

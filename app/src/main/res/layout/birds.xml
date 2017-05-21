@@ -11,60 +11,38 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="309dp"
-            android:scaleType="fitXY"
+            style="@style/ImageViewMainPicture"
             app:srcCompat="@drawable/bird1" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
+        <LinearLayout style="@style/LinearLayoutForSamples">
 
             <TextView
                 android:id="@+id/sampleBird1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Sample Sound 1"
-                android:textSize="22sp" />
+                style="@style/TextViewBirds"
+                android:text="@string/sampleSound1" />
 
             <TextView
                 android:id="@+id/sampleBird2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Sample Sound 2"
-                android:textSize="22sp" />
+                style="@style/TextViewBirds"
+                android:text="@string/sampleSound2" />
 
             <TextView
                 android:id="@+id/sampleBird3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Sample Sound 3"
-                android:textSize="22sp" />
+                style="@style/TextViewBirds"
+                android:text="@string/sampleSound3" />
 
 
             <ImageView
                 android:id="@+id/play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:adjustViewBounds="false"
+                style="@style/ImageViewForPlay"
                 android:src="@drawable/ic_play_circle_filled_white" />
 
             <Button
                 android:id="@+id/button_download"
-                android:layout_width="180dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                style="@style/downloadButton"
                 android:background="@drawable/mybutton"
-                android:text="Download More Sounds" />
+                android:text="@string/downloadMore" />
 
             <TextView
                 style="@style/explanation"

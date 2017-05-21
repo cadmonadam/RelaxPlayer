@@ -13,73 +13,43 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="309dp"
-            android:scaleType="fitXY"
+            style="@style/ImageViewMainPicture"
             app:srcCompat="@drawable/nowplayingsmall" />
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+        <LinearLayout style="@style/LinearLayoutForSamples">
 
             <TextView
-                android:id="@+id/sampleBird1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Artist Name - Album"
-                android:textColor="@color/colorWhite"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+                android:id="@+id/Artist"
+                style="@style/textViewForArtist"
+                android:text="@string/artist" />
 
             <TextView
-                android:id="@+id/sampleBird2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Title of the  Song"
-                android:textColor="@color/colorWhite"
-                android:textSize="20sp"
-                android:textStyle="italic" />
+                android:id="@+id/title_song"
+                style="@style/textViewForTitle"
+                android:text="@string/title_of_the_song" />
 
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
+            <LinearLayout style="@style/linearLayoutForControlPanel">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="false"
+                    style="@style/controlButton"
                     android:src="@drawable/ic_fast_rewind" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="false"
+                    style="@style/controlButton"
                     android:src="@drawable/ic_skip_previous" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="false"
+                    style="@style/controlButton"
                     android:src="@drawable/ic_play_circle_filled_white" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="false"
+                    style="@style/controlButton"
                     android:src="@drawable/ic_skip_next" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="false"
+                    style="@style/controlButton"
                     android:src="@drawable/ic_fast_forward" />
 
             </LinearLayout>

@@ -31,6 +31,7 @@
 
     </style>
 
+
     <style name="explanation">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -55,6 +56,96 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ImageViewMainPicture">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/imageview_android_layout_height</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="LinearLayoutForSamples">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextViewBirds">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/textViewBirds_android_layout_margin</item>
+        <item name="android:textSize">@dimen/textViewBirds_android_textSize</item>
+    </style>
+
+    <style name="ImageViewForPlay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/android_layout_marginTop</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+
+    <style name="downloadButton">
+        <item name="android:layout_width">@dimen/downloadbutton_android_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/android_layout_marginTop</item>
+    </style>
+
+    <style name="TextViewForDownload">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/android_layout_marginTop</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:layout_marginTop">@dimen/title_layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/title_layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/title_layout_marginRight</item>
+    </style>
+
+    <style name="textViewForDownloadSubtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/android_layout_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/android_textSize_22</item>
+    </style>
+
+    <style name="textViewForArtist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/android_layout_margin</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/android_textSize_22</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewForTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/android_layout_margin</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/android_textSize_20</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="linearLayoutForControlPanel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/controlpanel_android_layout_marginTop</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="controlButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">false</item>
     </style>
 
 

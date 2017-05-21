@@ -15,5 +15,17 @@
 
     <dimen name="mainButton_layout_width">180dp</dimen>
     <dimen name="mainButton_layout_marginTop">10dp</dimen>
+    <dimen name="imageview_android_layout_height">309dp</dimen>
+    <dimen name="textViewBirds_android_layout_margin">5dp</dimen>
+    <dimen name="textViewBirds_android_textSize">22sp</dimen>
+
+    <dimen name="android_layout_marginTop">10dp</dimen>
+    <dimen name="controlpanel_android_layout_marginTop">20dp</dimen>
+    <dimen name="downloadbutton_android_layout_width">180dp</dimen>
+    <dimen name="android_layout_margin">5dp</dimen>
+
+    <dimen name="android_textSize_22">22sp</dimen>
+    <dimen name="android_textSize_20">20sp</dimen>
+
 
 </resources>
