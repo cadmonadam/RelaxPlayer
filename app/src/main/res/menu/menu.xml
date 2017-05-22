@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_bar_menu"
+        android:icon="@drawable/ic_more_vert"
+        android:title="@string/home"
+        app:showAsAction="ifRoom">
+
+        <menu tools:style="@style/TextDark">
+            <item
+                android:id="@+id/action_home"
+                android:title="@string/home_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_birds"
+                android:title="@string/birds_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_storm"
+                android:title="@string/storm_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_nocturnal"
+                android:title="@string/nocturnal_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_library"
+                android:title="@string/my_library_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_now_playing"
+                android:title="@string/now_playing_menu"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_download"
+                android:title="@string/download_menu"
+                app:showAsAction="ifRoom" />
+
+        </menu>
+    </item>
+
+</menu>

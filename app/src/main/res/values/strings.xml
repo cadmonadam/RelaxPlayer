@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">RelaxPlayer</string>
+
+
     <string name="openingTextView">"Immerse Into Your Universe!"</string>
     <string name="birds">"Sunny Birds"</string>
     <string name="storm">"After The Storm"</string>
@@ -18,12 +20,21 @@
 
 
     <string name="mainExplanation">This is the opening screen. The main aim of Relax Player is to provide a large variety of real nature sounds captured at different parts of the World.\n Beside this unique feature it is also able to play the user\' s media files, so this way working as a classic media player.\n In this screen the user can choose from different types of predefined nature sounds or can open his own music library. \n New activities begin with the help of onClickListener by pressing the appropriate button.</string>
-    <string name="birdExplanation">In this section the user can choose the built in Bird Songs found in raw lib within res.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen. </string>
-    <string name="stormExplanation">In this section the user can choose the built in Storm Songs found in raw lib within res.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen.</string>
-    <string name="nocturnalExplanation">In this section the user can choose the built in Nocturnal Songs found in raw lib within res.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen.</string>
+    <string name="birdExplanation">In this section the user can choose the built in Bird Songs found in raw lib within res.\n For displaying the songs we can use ListView class, and we can also add animations to listView items with the help of ListViewAnimations Anroid library.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen. </string>
+    <string name="stormExplanation">In this section the user can choose the built in Storm Songs found in raw lib within res.\n For displaying the songs we can use ListView class, and we can also add animations to listView items with the help of ListViewAnimations Anroid library.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen.</string>
+    <string name="nocturnalExplanation">In this section the user can choose the built in Nocturnal Songs found in raw lib within res. \n For displaying the songs we can use ListView class, and we can also add animations to listView items with the help of ListViewAnimations Anroid library.\n By pressing the Play button the app navigates to the Now Playing screen, or choosing the download more sounds button which opens the Download screen.</string>
     <string name="myLibraryExplanation">Here you can find the user\’s own music collection. Mediaplayer must have access to external libraries in order to play the songs.\n This can be done by setting the filepath by calling the appropriate environment.\n E.g. mediaPlayer = MediaPlayer.create(this, Uri.parse(Environment.getExternalStorageDirectory().getPath()+ "/Music/intro.mp3")); \n By pressing the play button the App navigates to the Now Playing Screen.</string>
     <string name="nowPlayingExplanation">In this screen we can find the details of the song which is actually being played and the control panel itself.\n In order to play a song the MediaPlayer and AudiomManager classes have to be initiated. With the help of setOnCompletionListener()/setNextMediaPlayer()methods we can ensure that the next track will be started when the current playback is ended. \n The next and previous buttons stop the current track playback and starts the previous/next track.\n With the fast-forward and the fast-rewind buttons the user can move forward (or backward) through a recording at a speed faster than that at which it would usually be played.</string>
     <string name="world">The whole World is waiting fou You!</string>
     <string name="downloadExplanation">In this screen by pressing the button the User can access and download a lot of Nature Sounds recorded at different parts of the World.</string>
     <string name="title_of_the_song">Title of the Song</string>
+
+    <string name="home_menu">Home</string>
+    <string name="birds_menu">Sunny Birds</string>
+    <string name="storm_menu">After The Storm</string>
+    <string name="nocturnal_menu">Nocturnal</string>
+    <string name="my_library_menu">My Library</string>
+    <string name="now_playing_menu">Now Playing</string>
+    <string name="download_menu">Download</string>
+    <string name="home">Home</string>
 </resources>
